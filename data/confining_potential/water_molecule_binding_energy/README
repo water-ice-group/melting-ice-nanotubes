@@ -1,0 +1,3 @@
+#Each subdirectory contains the binding energy of a single water
+#molecule along the radial directions for different orientation, e.g, BINDvsd60 is at 60 degree, BINDvsdx is at 0 degree.
+#The average along the different orientations is in BINDvsD
