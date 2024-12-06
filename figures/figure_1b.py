@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.ticker import (MultipleLocator, AutoMinorLocator)
 
-path_to_data='../data/melting'
+path_to_data='/Users/flavi/Desktop/Cambridge/PhD/Reports/Year-2/1D-ice/analysis_for_paper/data/melting'
 
 
 #data
@@ -37,11 +37,9 @@ plt.plot(tip4p[25:,0], tip4p[25:,1],marker='o',ms=10,c='grey',alpha=0.9,mec='bla
 
 ff2=plt.plot(reaxff[:,0], reaxff[:,1],marker='*',ms=12,c='grey',ls='none',label='MD ReaxFF',alpha=0.9,mec='black')
 
-
-
-p1=plt.errorbar(4.75*2,287.5,yerr=5,fmt='^',ms=14,capsize=10,lw=3.,mec='black',c=triangle,mew=2.)
-p2=plt.errorbar(5.1*2,287.5,yerr=5,fmt='s',ms=14,capsize=10,lw=3.,mec='black',c=square,mew=2.)
-p3=plt.errorbar(5.5*2,295,yerr=5,fmt='p',ms=14,capsize=10,lw=3.,mec='black',c=penta_1,mew=2.)
+p1=plt.errorbar(4.75*2,287.5,yerr=2.5,fmt='^',ms=14,capsize=10,lw=3.,mec='black',c=triangle,mew=2.)
+p2=plt.errorbar(5.1*2,287.5,yerr=2.5,fmt='s',ms=14,capsize=10,lw=3.,mec='black',c=square,mew=2.)
+p3=plt.errorbar(5.5*2,285,yerr=5,fmt='p',ms=14,capsize=10,lw=3.,mec='black',c=penta_1,mew=2.)
 p4=plt.errorbar(5.9*2,305,yerr=5,fmt='p',ms=14,capsize=10,lw=3.,mec='black',c=penta_2,mew=2.)
 p5=plt.errorbar(6.25*2,295,yerr=5,fmt='h',ms=14,capsize=10,lw=3.,mec='black',c=hexa,mew=2.)
 
