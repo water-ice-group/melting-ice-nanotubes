@@ -2,7 +2,7 @@
 
 This repository contains supplementary data supporting the findings of the paper:
 
-Della Pia F, Zen A, Kapil V, Thiemann FL, Alf\e' D, Michaelides A, On the increase of the melting temperature of water confined in one-dimensional nano-cavities
+Della Pia F, Zen A, Kapil V, Thiemann FL, Alf\e' D, Michaelides A, On the increase of the melting temperature of water confined in one-dimensional nano-cavities, J. Chem. Phys. 161, 224706 (2024)
 
 
 ## Contents
